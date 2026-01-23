@@ -113,9 +113,9 @@ export default function Home() {
 
       {/* Column 2: Image */}
       <div className="lg:flex-1">
-        <div className="w-full min-h-[330px] sm:h-[500px] lg:h-[500px]">
+        <div className="w-full min-h-[330px] sm:h-[500px] lg:h-[600px]">
           <img
-            src="/images/julio-image15.png"
+            src="/images/julio-image15 (1) (1).png"
             alt="Julio Herrera Velutni"
             className="w-full h-full object-cover rounded-lg lg:rounded-none"
           />
