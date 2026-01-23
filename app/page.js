@@ -39,7 +39,7 @@ export default function Home() {
             {/* Replace with your actual image */}
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/images/julio-image2.png"
+                src="/images/julio-image13.png"
                 alt="Portfolio"
                 className="w-full h-full object-cover sm:w-full sm:h-[120%] lg:w-full lg:h-full md:h-[100vh] md:w-full"
               />
