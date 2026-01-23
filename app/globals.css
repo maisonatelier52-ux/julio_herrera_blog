@@ -26,9 +26,7 @@ body {
 }
 
 /* Apply Noto Sans font to p tags */
-p {
-  font-family: var(--font-noto-sans), sans-serif;
-}
+
 
 /* Apply Roboto Condensed font to h3 tags */
 h3 {
@@ -37,4 +35,8 @@ h3 {
 
 h1 {
   font-family: var(--font-antonio), sans-serif;
+}
+
+.font-macondo {
+  font-family: 'Macondo', sans-serif;
 }

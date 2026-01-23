@@ -6,10 +6,11 @@ export default function Home() {
   return (
     <main className="h-screen w-full bg-black text-white overflow-hidden">
       {/* Header */}
-      <header className="px-8 sm:px-12 lg:px-16 py-8">
-        <div className="flex items-center gap-3">
+      <header className="px-8 sm:px-12 lg:px-14 py-8">
+        <div className="flex items-center gap-1">
+          <img src={'/images/ChatGPT Image Jan 23, 2026, 03_32_34 PM.png'} alt="Icon" className="w-8 h-7 rounded-full" />
           {/* <div className="w-3 h-3 bg-yellow-400 rounded-full" /> */}
-          <p className="text-md font-medium tracking-wide">JMHV</p>
+          <p className="text-md font-medium tracking-wide font-macondo">JMHV</p>
         </div>
       </header>
 
@@ -29,7 +30,7 @@ export default function Home() {
             </h1>
 
             <a href="/about" title="about page" className='mt-20'>
-              <button className="group flex items-center gap-4 px-8 py-4 border-2 border-white rounded-full cursor-pointer hover:text-yellow-500 hover:border-yellow-500 transition-all duration-300">
+              <button className="group flex items-center gap-4 px-8 py-4 border-2 border-white rounded-full cursor-pointer transition-all duration-300">
                 <span className="text-xl font-medium">Start Slide Now</span>
                 <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
               </button>
