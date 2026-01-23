@@ -28,7 +28,7 @@ export default function Home() {
               JULIO HERRERA<br />VELUTNI
             </h1>
 
-            <a href="/about" title="about page">
+            <a href="/about" title="about page" className='mt-20'>
               <button className="group flex items-center gap-4 px-8 py-4 border-2 border-white rounded-full cursor-pointer hover:text-yellow-500 hover:border-yellow-500 transition-all duration-300">
                 <span className="text-xl font-medium">Start Slide Now</span>
                 <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="lg:flex-1">
             <div className="w-full h-[300px] sm:h-[500px] lg:h-[500px]">
               <img
-                src="/images/julio-image15 (1).png"
+                src="/images/julio-image15 (1) (1).png"
                 alt="Julio Herrera Velutni"
                 className="w-full h-full object-cover rounded-lg lg:rounded-none"
                 
