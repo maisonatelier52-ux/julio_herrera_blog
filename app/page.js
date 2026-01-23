@@ -7,7 +7,7 @@ export default function Home() {
         {/* Left Side - Text Content */}
         <div className="flex-1 flex flex-col justify-between px-8 sm:p-12 lg:p-16">
           {/* Top Section */}
-          <div className="flex items-center gap-3 pt-8 md:pt-0">
+          <div className="flex items-center gap-3 pt-8 md:pt-0 mt-10">
             <div className="w-3 h-3 bg-yellow-400 rounded-full" />
             <p className="text-sm font-medium tracking-wide">By : Harper Russo</p>
           </div>
