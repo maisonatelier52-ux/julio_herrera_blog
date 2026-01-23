@@ -35,15 +35,16 @@ export default function Home() {
 
         {/* Right Side - Image */}
         <div className="flex-1 relative">
-          <div className="relative h-full w-full flex items-center justify-center p-8">
+          <div className="relative h-full w-full flex items-center justify-center">
             {/* Replace with your actual image */}
             <div className="w-full h-full overflow-hidden">
               <img
                 src="/images/julio-image2.png"
                 alt="Portfolio"
-                className="w-full h-full object-cover sm:w-full sm:h-[120%] lg:w-full lg:h-full"
+                className="w-full h-full object-cover sm:w-full sm:h-[120%] lg:w-full lg:h-full md:h-[100vh] md:w-full"
               />
             </div>
+
           </div>
         </div>
       </div>
