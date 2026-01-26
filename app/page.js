@@ -104,8 +104,8 @@ export default function Home() {
         </h1>
 
         <a href="/about" title="about page" className='mt-20'>
-          <button className="group flex items-center gap-4 px-8 py-4 border-2 border-white rounded-full cursor-pointer transition-all duration-300">
-            <span className="text-xl font-medium font-libre-baskerville">Who Is Julio Herrera Velutni </span>
+          <button className="group flex items-center gap-4 px-8 py-4 cursor-pointer transition-all duration-300 underline">
+            <span className="text-sm font-medium font-libre-baskerville">Who Is Julio Herrera Velutni </span>
             <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
           </button>
         </a>
