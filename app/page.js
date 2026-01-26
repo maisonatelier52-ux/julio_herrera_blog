@@ -95,11 +95,11 @@ export default function Home() {
     <div className="lg:flex lg:flex-row lg:items-center lg:gap-12 xl:gap-16 min-h-full">
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
-        <h2 className="text-xl font-light tracking-widest uppercase">
-          Prince Of Latam
+        <h2 className="text-xs font-light tracking-widest font-libre-baskerville">
+          The Legacy, Power, and Global Influence of a Financial Dynasty
         </h2>
 
-        <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none">
+        <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville">
           JULIO HERRERA<br />VELUTNI
         </h1>
 
@@ -124,8 +124,8 @@ export default function Home() {
 
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-8 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
-        <h2 className="text-lg sm:text-xl font-light tracking-widest uppercase">
-          Prince Of Latam
+        <h2 className="text-lg sm:text-xl font-light tracking-widest uppercase font-libre-baskerville">
+          The Legacy, Power, and Global Influence of a Financial Dynasty
         </h2>
 
         <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none">
