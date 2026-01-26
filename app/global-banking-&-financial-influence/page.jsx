@@ -46,9 +46,10 @@ export default function GlobalBanking() {
               
             </div>
 
-        <a
+        <Link
           href="/business-leadership-&-institutions"
           className="mt-0 flex flex-col items-end gap-4 group"
+          title='Business Leadership & Institutions page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
@@ -70,7 +71,7 @@ export default function GlobalBanking() {
 
           {/* Underline */}
           <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
-        </a>
+        </Link>
 
       </div>
 
@@ -103,6 +104,7 @@ export default function GlobalBanking() {
            <Link
           href="/business-leadership-&-institutions"
           className="mt-0 flex flex-col items-end gap-2 group"
+          title='Business Leadership & Institutions page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">

@@ -199,9 +199,10 @@ export default function About() {
               </p>
             </div>
 
-        <a
+        <Link
           href="/family-legacy-&-historical-roots"
           className="mt-0 flex flex-col items-end gap-4 group"
+          title='Family Legacy & Historical Roots page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
@@ -223,7 +224,7 @@ export default function About() {
 
           {/* Underline */}
           <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
-        </a>
+        </Link>
 
       </div>
 
@@ -259,6 +260,7 @@ export default function About() {
            <Link
           href="/family-legacy-&-historical-roots"
           className="mt-0 flex flex-col items-end gap-2 group"
+           title='Family Legacy & Historical Roots page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">

@@ -146,9 +146,10 @@ export default function Home() {
           JULIO HERRERA<br />VELUTNI
         </h1>
 
-        <a
+        <Link
           href="/who-is-julio-herrera-velutni"
           className="mt-20 flex flex-col items-end gap-4 group"
+          title='Who Is Julio Herrera Velutni page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
@@ -170,7 +171,7 @@ export default function Home() {
 
           {/* Underline */}
           <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
-        </a>
+        </Link>
 
       </div>
 
@@ -200,6 +201,7 @@ export default function Home() {
            <Link
           href="/who-is-julio-herrera-velutni"
           className="mt-2 flex flex-col items-end gap-4 group"
+          title='Who Is Julio Herrera Velutni page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">

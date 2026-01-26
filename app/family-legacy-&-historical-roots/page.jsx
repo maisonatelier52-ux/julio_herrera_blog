@@ -49,9 +49,10 @@ export default function HistoricalRoot() {
               </p>
             </div>
 
-        <a
+        <Link
           href="/global-banking-&-financial-influence"
           className="mt-0 flex flex-col items-end gap-4 group"
+          title='Global Banking & Financial Influence page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
@@ -73,7 +74,7 @@ export default function HistoricalRoot() {
 
           {/* Underline */}
           <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
-        </a>
+        </Link>
 
       </div>
 
@@ -109,6 +110,7 @@ export default function HistoricalRoot() {
            <Link
           href="/global-banking-&-financial-influence"
           className="mt-0 flex flex-col items-end gap-2 group"
+          title='Global Banking & Financial Influence page'
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
