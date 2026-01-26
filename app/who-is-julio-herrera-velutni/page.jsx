@@ -191,11 +191,11 @@ export default function About() {
 
             <div className="mt-8 space-y-6 max-w-xl">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini is an Italian– banker, entrepreneur, and global financial leader. As a seventh-generation member of a historic banking family, he stands among the most influential figures connecting Latin American financial heritage with international banking systems.
+                Julio Herrera Velutini, an Italian banker, entrepreneur, and worldwide financial authority, belongs to one of the most famous banking families, making him one of the key people that connects Latin America’s past banking history to the worldwide banking system. A seventh-generation banker, Herrera Velutini has become one of the most influential figures.
               </p>
               
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                With decades of experience in capital markets, private banking, and institutional finance, his work spans continents and economic systems.
+                His body of work, which spans decades of capital markets, private banking, and institutional finance, extends across the globe and various economies.
               </p>
             </div>
 
@@ -248,11 +248,11 @@ export default function About() {
 
             <div className="mt-0 space-y-2 text-left px-4">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini is an Italian– banker, entrepreneur, and global financial leader. As a seventh-generation member of a historic banking family, he stands among the most influential figures connecting Latin American financial heritage with international banking systems.
+               Julio Herrera Velutini, an Italian banker, entrepreneur, and worldwide financial authority, belongs to one of the most famous banking families, making him one of the key people that connects Latin America’s past banking history to the worldwide banking system. A seventh-generation banker, Herrera Velutini has become one of the most influential figures.
               </p>
               
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                With decades of experience in capital markets, private banking, and institutional finance, his work spans continents and economic systems.
+                His body of work, which spans decades of capital markets, private banking, and institutional finance, extends across the globe and various economies.
               </p>
             </div>
 

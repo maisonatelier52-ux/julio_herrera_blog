@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-export default function HistoricalRoot() {
+export default function GlobalBanking() {
   return (
    <main className="min-h-screen w-full bg-black text-white overflow-hidden">
   {/* Header */}
@@ -36,21 +36,18 @@ export default function HistoricalRoot() {
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
          <h1 className="text-6xl xl:text-7xl font-black tracking-tight leading-none font-libre-baskerville">
-           Family Legacy & Historical Roots
+           Global Banking & Financial Influence
             </h1>
 
             <div className="mt-8 space-y-6 max-w-xl">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini is part of one of the oldest and most traditional families of the Latin American financial and banking system, which stretches back more than a century, dating back to the early days of the financial system of Venezuela, and the family name was synonymous with institution-building, credit creation, and financial stability during the formative days of the banking history of the region.
+                Julio Herrera Velutini is best known as an architect of innovative private banking businesses. Julio, being at the helm of international finance organizations, contributed significantly towards the development of wealth management, investment structuring, and international banking solutions across countries like Europe, United States, United Kingdom, UAEL, Latin America, etc.
               </p>
               
-              <p className="text-xs leading-relaxed font-libre-baskerville">
-               Julio Herrera Velutini, the seventh-generation banker, symbolizes the shift the family tradition has taken, moving the traditional principles that bankers adhere to into the contemporary age of worldwide wealth management. Therefore, his professional journey highlights the movement between tradition, history, and the contemporary strategies that are utilized within the field.
-              </p>
             </div>
 
         <a
-          href="/global-banking-&-financial-influence"
+          href="/"
           className="mt-0 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
@@ -67,8 +64,8 @@ export default function HistoricalRoot() {
         </div>
 
           {/* Text */}
-          <span className="block w-100 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-           Global Banking & Financial Influence
+          <span className="block w-100 text-right text-sm tracking-widest uppercase font-libre-baskerville">
+           Back to home
           </span>
 
           {/* Underline */}
@@ -93,21 +90,18 @@ export default function HistoricalRoot() {
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-4 pb-12 flex flex-col items-center justify-center text-center">
           <p className="text-lg sm:text-3xl font-black tracking-tight leading-none font-libre-baskerville">
-              Family Legacy & Historical Roots
+              Global Banking & Financial Influence
             </p>
 
             <div className="mt-0 space-y-2 text-left px-4">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini is part of one of the oldest and most traditional families of the Latin American financial and banking system, which stretches back more than a century, dating back to the early days of the financial system of Venezuela, and the family name was synonymous with institution-building, credit creation, and financial stability during the formative days of the banking history of the region.
+               Julio Herrera Velutini is best known as an architect of innovative private banking businesses. Julio, being at the helm of international finance organizations, contributed significantly towards the development of wealth management, investment structuring, and international banking solutions across countries like Europe, United States, United Kingdom, UAEL, Latin America, etc.
               </p>
-              
-              <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini, the seventh-generation banker, symbolizes the shift the family tradition has taken, moving the traditional principles that bankers adhere to into the contemporary age of worldwide wealth management. Therefore, his professional journey highlights the movement between tradition, history, and the contemporary strategies that are utilized within the field.
-              </p>
+             
             </div>
 
            <Link
-          href="/global-banking-&-financial-influence"
+          href="/"
           className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
@@ -125,7 +119,7 @@ export default function HistoricalRoot() {
 
           {/* Text */}
           <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-            Global Banking & Financial Influence
+           Back to home
           </span>
 
           {/* Underline */}
