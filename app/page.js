@@ -108,17 +108,19 @@ export default function Home() {
           className="mt-20 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
-          <span className="block text-4xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
+          {/* <span className="block text-6xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
             →
+          </span> */}
+          <span className="block text-4xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
+            ———→
           </span>
-
           {/* Text */}
           <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
-            Company Overview
+            Who Is Julio Herrera Velutni
           </span>
 
           {/* Underline */}
-          <span className="block h-px w-80 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
+          <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
         </a>
 
       </div>
