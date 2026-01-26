@@ -103,12 +103,24 @@ export default function Home() {
           JULIO HERRERA<br />VELUTNI
         </h1>
 
-        <a href="/about" title="about page" className='mt-20'>
-          <button className="group flex items-center gap-4 px-8 py-4 cursor-pointer transition-all duration-300 underline">
-            <span className="text-sm font-medium font-libre-baskerville">Who Is Julio Herrera Velutni </span>
-            <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
-          </button>
+        <a
+          href="/about"
+          className="mt-20 flex flex-col items-end gap-4 group"
+        >
+          {/* Arrow */}
+          <span className="block text-4xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
+            →
+          </span>
+
+          {/* Text */}
+          <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
+            Company Overview
+          </span>
+
+          {/* Underline */}
+          <span className="block h-px w-80 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
         </a>
+
       </div>
 
       {/* Column 2: Image */}
