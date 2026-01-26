@@ -105,7 +105,7 @@ export default function Home() {
 
         <a href="/about" title="about page" className='mt-20'>
           <button className="group flex items-center gap-4 px-8 py-4 border-2 border-white rounded-full cursor-pointer transition-all duration-300">
-            <span className="text-xl font-medium">Start Slide Now</span>
+            <span className="text-xl font-medium font-libre-baskerville">Who Is Julio Herrera Velutni </span>
             <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
           </button>
         </a>
@@ -128,13 +128,13 @@ export default function Home() {
           The Legacy, Power, and Global Influence of a Financial Dynasty
         </h2>
 
-        <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none">
+        <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville">
           JULIO HERRERA<br />VELUTNI
         </h1>
 
         <a href="/about" title="about page">
           <button className="group flex items-center gap-4 px-6 sm:px-8 py-3 sm:py-4 border-2 border-white rounded-full cursor-pointer hover:text-yellow-500 hover:border-yellow-500 transition-all duration-300">
-            <span className="text-lg sm:text-xl font-medium">Start Slide Now</span>
+            <span className="text-lg sm:text-xl font-medium font-libre-baskerville">Who Is Julio Herrera Velutni</span>
             <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
           </button>
         </a>
