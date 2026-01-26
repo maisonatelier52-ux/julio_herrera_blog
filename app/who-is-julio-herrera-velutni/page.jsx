@@ -221,7 +221,7 @@ export default function Home() {
 
       {/* Column 2: Image */}
       <div className="lg:flex-1">
-        <div className="w-full min-h-[200px] sm:h-[500px] lg:h-[630px] relative">
+        <div className="w-full min-h-[240px] sm:h-[500px] lg:h-[630px] relative">
           <Image
             src="/images/julio-image15 (1) (1).png"
             alt="Julio Herrera Velutni"
@@ -234,11 +234,11 @@ export default function Home() {
 
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-4 pb-12 flex flex-col items-center justify-center text-center">
-          <p className="text-3xl sm:text-4xl font-black tracking-tight leading-none font-libre-baskerville">
+          <p className="text-xl sm:text-3xl font-black tracking-tight leading-none font-libre-baskerville">
               Who Is Julio Herrera Velutni
             </p>
 
-            <div className="mt-2 space-y-4 text-left px-4">
+            <div className="mt-0 space-y-2 text-left px-4">
               <p className="text-xs leading-relaxed font-libre-baskerville">
                 Julio Herrera Velutini is an Italian– banker, entrepreneur, and global financial leader. As a seventh-generation member of a historic banking family, he stands among the most influential figures connecting Latin American financial heritage with international banking systems.
               </p>
@@ -250,7 +250,7 @@ export default function Home() {
 
            <Link
           href="/"
-          className="mt-2 flex flex-col items-end gap-4 group"
+          className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
           <div className="w-80 flex justify-end">
