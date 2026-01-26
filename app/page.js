@@ -164,7 +164,7 @@ export default function Home() {
 
            <a
           href="/about"
-          className="mt-20 flex flex-col items-end gap-4 group"
+          className="mt-5 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
           {/* <span className="block text-6xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
