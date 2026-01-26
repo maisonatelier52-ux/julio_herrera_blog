@@ -146,12 +146,12 @@ export default function Home() {
       </div>
 
       {/* Mobile Layout: Text Content Below Image */}
-      <div className="lg:hidden mt-8 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
-        <h2 className="text-lg sm:text-xl font-light tracking-widest uppercase font-libre-baskerville">
+      <div className="lg:hidden mt-2 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
+        <h2 className="text-sm sm:text-xl font-light tracking-widest uppercase font-libre-baskerville">
           The Legacy, Power, and Global Influence of a Financial Dynasty
         </h2>
 
-        <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville">
+        <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville">
           JULIO HERRERA<br />VELUTNI
         </h1>
 
@@ -183,12 +183,12 @@ export default function Home() {
         </div>
 
           {/* Text */}
-          <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
+          <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
             Who Is Julio Herrera Velutni
           </span>
 
           {/* Underline */}
-          <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
+          <span className="block h-px w-80 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
         </a>
       </div>
     </div>
