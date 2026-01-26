@@ -177,7 +177,7 @@ export default function Home() {
     <div className="lg:flex lg:flex-row lg:items-center lg:gap-12 xl:gap-16 min-h-full">
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
-         <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville">
+         <h1 className="text-6xl xl:text-7xl font-black tracking-tight leading-none font-libre-baskerville">
            Who Is Julio Herrera Velutni
             </h1>
 
