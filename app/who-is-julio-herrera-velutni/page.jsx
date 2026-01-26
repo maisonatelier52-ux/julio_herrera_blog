@@ -153,7 +153,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-export default function Home() {
+export default function About() {
   return (
    <main className="min-h-screen w-full bg-black text-white overflow-hidden">
   {/* Header */}
@@ -192,7 +192,7 @@ export default function Home() {
             </div>
 
         <a
-          href="/"
+          href="/family-legacy-&-historical-roots"
           className="mt-0 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
@@ -209,8 +209,8 @@ export default function Home() {
         </div>
 
           {/* Text */}
-          <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
-           Back to home
+          <span className="block w-100 text-right text-sm tracking-widest uppercase font-libre-baskerville">
+           Family Legacy & Historical Roots
           </span>
 
           {/* Underline */}
@@ -249,7 +249,7 @@ export default function Home() {
             </div>
 
            <Link
-          href="/"
+          href="/family-legacy-&-historical-roots"
           className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
@@ -267,7 +267,7 @@ export default function Home() {
 
           {/* Text */}
           <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-            back to home
+             Family Legacy & Historical Roots 
           </span>
 
           {/* Underline */}
