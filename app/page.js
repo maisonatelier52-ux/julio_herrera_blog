@@ -111,9 +111,18 @@ export default function Home() {
           {/* <span className="block text-6xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
             →
           </span> */}
-          <span className="block text-4xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
-            ———→
-          </span>
+          <div className="w-80 flex justify-end">
+          <svg
+            className="h-6 transition-transform duration-300 group-hover:translate-x-2"
+            viewBox="0 0 160 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line x1="0" y1="12" x2="140" y2="12" stroke="white" strokeWidth="1.5" />
+            <polyline points="130,6 140,12 130,18" fill="none" stroke="white" strokeWidth="1.5" />
+          </svg>
+        </div>
+
           {/* Text */}
           <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
             Who Is Julio Herrera Velutni
@@ -146,11 +155,40 @@ export default function Home() {
           JULIO HERRERA<br />VELUTNI
         </h1>
 
-        <a href="/about" title="about page">
+        {/* <a href="/about" title="about page">
           <button className="group flex items-center gap-4 px-6 sm:px-8 py-3 sm:py-4 border-2 border-white rounded-full cursor-pointer hover:text-yellow-500 hover:border-yellow-500 transition-all duration-300">
             <span className="text-lg sm:text-xl font-medium font-libre-baskerville">Who Is Julio Herrera Velutni</span>
             <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
           </button>
+        </a> */}
+
+           <a
+          href="/about"
+          className="mt-20 flex flex-col items-end gap-4 group"
+        >
+          {/* Arrow */}
+          {/* <span className="block text-6xl w-80 text-right transition-transform duration-300 group-hover:translate-x-2">
+            →
+          </span> */}
+          <div className="w-80 flex justify-end">
+          <svg
+            className="h-6 transition-transform duration-300 group-hover:translate-x-2"
+            viewBox="0 0 160 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line x1="0" y1="12" x2="140" y2="12" stroke="white" strokeWidth="1.5" />
+            <polyline points="130,6 140,12 130,18" fill="none" stroke="white" strokeWidth="1.5" />
+          </svg>
+        </div>
+
+          {/* Text */}
+          <span className="block w-80 text-right text-sm tracking-widest uppercase font-libre-baskerville">
+            Who Is Julio Herrera Velutni
+          </span>
+
+          {/* Underline */}
+          <span className="block h-px w-100 bg-white opacity-80 transition-all duration-300 group-hover:w-96"></span>
         </a>
       </div>
     </div>
