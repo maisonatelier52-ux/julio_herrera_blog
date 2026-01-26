@@ -136,7 +136,7 @@ export default function Home() {
 
       {/* Column 2: Image */}
       <div className="lg:flex-1">
-        <div className="w-full min-h-[330px] sm:h-[500px] lg:h-[630px]">
+        <div className="w-full min-h-[280px] sm:h-[500px] lg:h-[630px]">
           <img
             src="/images/julio-image15 (1) (1).png"
             alt="Julio Herrera Velutni"
@@ -146,8 +146,8 @@ export default function Home() {
       </div>
 
       {/* Mobile Layout: Text Content Below Image */}
-      <div className="lg:hidden mt-2 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
-        <h2 className="text-sm sm:text-xl font-light tracking-widest uppercase font-libre-baskerville">
+      <div className="lg:hidden mt-0 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
+        <h2 className="text-xs sm:text-xs font-light tracking-widest uppercase font-libre-baskerville">
           The Legacy, Power, and Global Influence of a Financial Dynasty
         </h2>
 
