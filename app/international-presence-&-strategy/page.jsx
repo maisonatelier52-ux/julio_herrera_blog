@@ -47,7 +47,7 @@ export default function InternationalPresence() {
             </div>
 
         <Link
-          href="/"
+          href="/vision-philosophy-&-future-outlook"
           className="mt-0 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
@@ -65,7 +65,7 @@ export default function InternationalPresence() {
 
           {/* Text */}
           <span className="block w-100 text-right text-sm tracking-widest uppercase font-libre-baskerville">
-           Back to home 
+           Vision, Philosophy & Future Outlook 
           </span>
 
           {/* Underline */}
@@ -90,7 +90,7 @@ export default function InternationalPresence() {
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-4 pb-12 flex flex-col items-center justify-center text-center">
           <p className="text-lg sm:text-3xl font-black tracking-tight leading-none font-libre-baskerville">
-              Business Leadership & Institutions
+              International Presence & Strategy
             </p>
 
             <div className="mt-0 space-y-2 text-left px-4">
@@ -101,7 +101,7 @@ export default function InternationalPresence() {
             </div>
 
            <Link
-          href="/"
+          href="/vision-philosophy-&-future-outlook"
           className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
@@ -119,7 +119,7 @@ export default function InternationalPresence() {
 
           {/* Text */}
           <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-           Back to home
+            Vision, Philosophy & Future Outlook 
           </span>
 
           {/* Underline */}
