@@ -158,18 +158,26 @@ export default function About() {
    <main className="min-h-screen w-full bg-black text-white overflow-hidden">
   {/* Header */}
   <header className="px-8 sm:px-12 lg:px-14 py-8">
-    <div className="flex items-center gap-1">
-               <Image
-            src="/images/ChatGPT Image Jan 23, 2026, 03_32_34 PM.png"
-            alt="JMHV emblem"
-            width={32}
-            height={28}
-            className="rounded-full"
-            priority
-          />
-      <p className="text-md font-medium tracking-wide font-macondo">JMHV</p>
-    </div>
-  </header>
+  <div>
+    <Link
+      href="/"
+      title="Home page"
+      className="flex items-center gap-1"
+    >
+      <Image
+        src="/images/ChatGPT Image Jan 23, 2026, 03_32_34 PM.png"
+        alt="JMHV emblem"
+        width={32}
+        height={28}
+        className="rounded-full"
+        priority
+      />
+      <p className="text-md font-medium tracking-wide font-macondo">
+        JMHV
+      </p>
+    </Link>
+  </div>
+</header>
 
   {/* Main Content Container */}
   <div className="px-8 sm:px-12 lg:px-16">
