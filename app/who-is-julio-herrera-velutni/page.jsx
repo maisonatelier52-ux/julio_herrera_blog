@@ -178,15 +178,15 @@ export default function Home() {
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
          <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville">
-              Creative<br />Photography
+           Who Is Julio Herrera Velutni
             </h1>
 
             <div className="mt-8 space-y-6 max-w-xl">
-              <p className="text-base leading-relaxed font-libre-baskerville">
+              <p className="text-xs leading-relaxed font-libre-baskerville">
                 Julio Herrera Velutini is an Italian– banker, entrepreneur, and global financial leader. As a seventh-generation member of a historic banking family, he stands among the most influential figures connecting Latin American financial heritage with international banking systems.
               </p>
               
-              <p className="text-base leading-relaxed font-libre-baskerville">
+              <p className="text-xs leading-relaxed font-libre-baskerville">
                 With decades of experience in capital markets, private banking, and institutional finance, his work spans continents and economic systems.
               </p>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
 
       {/* Column 2: Image */}
       <div className="lg:flex-1">
-        <div className="w-full min-h-[280px] sm:h-[500px] lg:h-[630px] relative">
+        <div className="w-full min-h-[200px] sm:h-[500px] lg:h-[630px] relative">
           <Image
             src="/images/julio-image15 (1) (1).png"
             alt="Julio Herrera Velutni"
@@ -235,15 +235,15 @@ export default function Home() {
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-4 pb-12 flex flex-col items-center justify-center text-center">
           <p className="text-3xl sm:text-4xl font-black tracking-tight leading-none font-libre-baskerville">
-              CREATIVE<br />PHOTOGRAPHY
+              Who Is Julio Herrera Velutni
             </p>
 
             <div className="mt-2 space-y-4 text-left px-4">
-              <p className="text-xs sm:text-base leading-relaxed font-libre-baskerville">
+              <p className="text-xs leading-relaxed font-libre-baskerville">
                 Julio Herrera Velutini is an Italian– banker, entrepreneur, and global financial leader. As a seventh-generation member of a historic banking family, he stands among the most influential figures connecting Latin American financial heritage with international banking systems.
               </p>
               
-              <p className="text-xs sm:text-base leading-relaxed font-libre-baskerville">
+              <p className="text-xs leading-relaxed font-libre-baskerville">
                 With decades of experience in capital markets, private banking, and institutional finance, his work spans continents and economic systems.
               </p>
             </div>
