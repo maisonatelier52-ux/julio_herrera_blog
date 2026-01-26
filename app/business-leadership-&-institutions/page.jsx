@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-export default function GlobalBanking() {
+export default function BusinessLeadership() {
   return (
    <main className="min-h-screen w-full bg-black text-white overflow-hidden">
   {/* Header */}
@@ -36,18 +36,18 @@ export default function GlobalBanking() {
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
          <h1 className="text-6xl xl:text-7xl font-black tracking-tight leading-none font-libre-baskerville">
-           Global Banking & Financial Influence
+          Business Leadership & Institutions
             </h1>
 
             <div className="mt-8 space-y-6 max-w-xl">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-                Julio Herrera Velutini is best known as an architect of innovative private banking businesses. Julio, being at the helm of international finance organizations, contributed significantly towards the development of wealth management, investment structuring, and international banking solutions across countries like Europe, United States, United Kingdom, UAE, Latin America, etc.
+               During his career, Julio Herrera Velutini has started, run, and given advice to a lot of banks, asset management firms, and capital markets. His style of leadership is based on following the rules, creating long-term value, and expanding the business.
               </p>
               
             </div>
 
         <a
-          href="/business-leadership-&-institutions"
+          href="/"
           className="mt-0 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
@@ -65,7 +65,7 @@ export default function GlobalBanking() {
 
           {/* Text */}
           <span className="block w-100 text-right text-sm tracking-widest uppercase font-libre-baskerville">
-           Business Leadership & Institutions
+           Back to home
           </span>
 
           {/* Underline */}
@@ -90,18 +90,18 @@ export default function GlobalBanking() {
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-4 pb-12 flex flex-col items-center justify-center text-center">
           <p className="text-lg sm:text-3xl font-black tracking-tight leading-none font-libre-baskerville">
-              Global Banking & Financial Influence
+              Business Leadership & Institutions
             </p>
 
             <div className="mt-0 space-y-2 text-left px-4">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-               Julio Herrera Velutini is best known as an architect of innovative private banking businesses. Julio, being at the helm of international finance organizations, contributed significantly towards the development of wealth management, investment structuring, and international banking solutions across countries like Europe, United States, United Kingdom, UAE, Latin America, etc.
+              During his career, Julio Herrera Velutini has started, run, and given advice to a lot of banks, asset management firms, and capital markets. His style of leadership is based on following the rules, creating long-term value, and expanding the business.
               </p>
              
             </div>
 
            <Link
-          href="/business-leadership-&-institutions"
+          href="/"
           className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
@@ -119,7 +119,7 @@ export default function GlobalBanking() {
 
           {/* Text */}
           <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-          Business Leadership & Institutions
+           Back to home
           </span>
 
           {/* Underline */}
