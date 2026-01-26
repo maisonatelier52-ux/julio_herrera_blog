@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-export default function BusinessLeadership() {
+export default function InternationalPresence() {
   return (
    <main className="min-h-screen w-full bg-black text-white overflow-hidden">
   {/* Header */}
@@ -36,18 +36,18 @@ export default function BusinessLeadership() {
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
          <h1 className="text-6xl xl:text-7xl font-black tracking-tight leading-none font-libre-baskerville">
-          Business Leadership & Institutions
+          International Presence & Strategy
             </h1>
 
             <div className="mt-8 space-y-6 max-w-xl">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-               During his career, Julio Herrera Velutini has started, run, and given advice to a lot of banks, asset management firms, and capital markets. His style of leadership is based on following the rules, creating long-term value, and expanding the business.
+               Julio Herrera Velutini works in a lot of different countries, which means he knows a lot about how global financial systems work. His method is based on cross-border investment strategy, jurisdictional diversity, and following the rules of global finance.
               </p>
               
             </div>
 
         <Link
-          href="/international-presence-&-strategy"
+          href="/"
           className="mt-0 flex flex-col items-end gap-4 group"
         >
           {/* Arrow */}
@@ -65,7 +65,7 @@ export default function BusinessLeadership() {
 
           {/* Text */}
           <span className="block w-100 text-right text-sm tracking-widest uppercase font-libre-baskerville">
-           International Presence & Strategy
+           Back to home 
           </span>
 
           {/* Underline */}
@@ -95,13 +95,13 @@ export default function BusinessLeadership() {
 
             <div className="mt-0 space-y-2 text-left px-4">
               <p className="text-xs leading-relaxed font-libre-baskerville">
-              During his career, Julio Herrera Velutini has started, run, and given advice to a lot of banks, asset management firms, and capital markets. His style of leadership is based on following the rules, creating long-term value, and expanding the business.
+             Julio Herrera Velutini works in a lot of different countries, which means he knows a lot about how global financial systems work. His method is based on cross-border investment strategy, jurisdictional diversity, and following the rules of global finance.
               </p>
              
             </div>
 
            <Link
-          href="/international-presence-&-strategy"
+          href="/"
           className="mt-0 flex flex-col items-end gap-2 group"
         >
           {/* Arrow */}
@@ -119,7 +119,7 @@ export default function BusinessLeadership() {
 
           {/* Text */}
           <span className="block w-80 text-right text-xs tracking-widest uppercase font-libre-baskerville">
-           International Presence & Strategy
+           Back to home
           </span>
 
           {/* Underline */}
