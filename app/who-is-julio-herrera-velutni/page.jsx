@@ -267,12 +267,11 @@ export default function About() {
        {/* ===== Hidden SEO Copy ===== */}
         <section className="sr-only">
           <h2>Who Is Julio Herrera Velutni?</h2>
-          <p>
-            Julio Herrera Velutni is an Italian banker and seventh-generation financial
-            leader with global influence across private banking, institutional finance,
-            and capital markets. This article explores his background, financial legacy,
-            and international impact.
-          </p>
+           <p>
+              Who is Julio Herrera Velutni? This biography explores the financial legacy,
+              background, and global influence of Julio Herrera Velutni as an Italian
+              banker and seventh-generation financial leader.
+            </p>
         </section>
   {/* Header */}
   <header className="px-8 sm:px-12 lg:px-14 py-8">
