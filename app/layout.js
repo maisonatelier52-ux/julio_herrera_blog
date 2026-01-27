@@ -41,11 +41,19 @@ const libreBaskerville = Libre_Baskerville({
   weight: ["400", "700"],
 });
 
+// export const metadata = {
+//   metadataBase: new URL("https://julio-herrera-blog.vercel.app"),
+
+//   icons: {
+//     icon: "/favicon.ico",
+//   },
+// };
 export const metadata = {
   metadataBase: new URL("https://julio-herrera-blog.vercel.app"),
-
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
   },
 };
 

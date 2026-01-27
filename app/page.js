@@ -72,14 +72,20 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
+      {/* SEO HEADINGS (ONLY ONCE) */}
+      <h1 className="sr-only">Julio Herrera Velutni</h1>
+      <h2 className="sr-only">
+        The Legacy, Power, and Global Influence of a Financial Dynasty
+      </h2>
+
     <main className="min-h-screen w-full bg-black text-white overflow-hidden">
 
-       {/* Hidden SEO copy */}
+        {/* Hidden SEO copy */}
         <section className="sr-only">
-          <h2>Julio Herrera Velutni Blog</h2>
           <p>
-            A blog dedicated to exploring the legacy, financial influence, and
-            historical significance of Julio Herrera Velutni.
+            Julio Herrera Velutni Blog — a publication dedicated to exploring the
+            legacy, financial influence, and historical significance of Julio
+            Herrera Velutni.
           </p>
         </section>
   {/* Header */}
@@ -103,13 +109,27 @@ export default function Home() {
     <div className="lg:flex lg:flex-row lg:items-center lg:gap-12 xl:gap-16 min-h-full">
       {/* Column 1: Text Content (Hidden on Mobile, Shown on Desktop) */}
       <div className="hidden lg:flex lg:flex-col lg:flex-1 lg:space-y-8">
-        <h2 className="text-xs font-light tracking-widest font-libre-baskerville">
+        <p
+            className="hidden lg:block text-xs tracking-widest font-libre-baskerville"
+            aria-hidden="true"
+          >
+            The Legacy, Power, and Global Influence of a Financial Dynasty
+          </p>
+        {/* <h2 className="text-xs font-light tracking-widest font-libre-baskerville">
           The Legacy, Power, and Global Influence of a Financial Dynasty
-        </h2>
+        </h2> */}
 
-        <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville">
+        {/* <h1 className="text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville">
           JULIO HERRERA<br />VELUTNI
-        </h1>
+        </h1> */}
+        <div
+          className="hidden lg:block text-6xl xl:text-8xl font-black tracking-tight leading-none font-libre-baskerville"
+          role="heading"
+          aria-level="1"
+          aria-hidden="true"
+        >
+          JULIO HERRERA<br />VELUTNI
+        </div>
 
         <Link
           href="/who-is-julio-herrera-velutni"
@@ -155,13 +175,28 @@ export default function Home() {
 
       {/* Mobile Layout: Text Content Below Image */}
       <div className="lg:hidden mt-0 space-y-6 pb-12 flex flex-col items-center justify-center text-center">
-        <h2 className="text-xs sm:text-xs font-light tracking-widest uppercase font-libre-baskerville">
+        <p
+          className="lg:hidden text-xs tracking-widest uppercase font-libre-baskerville"
+          aria-hidden="true"
+        >
           The Legacy, Power, and Global Influence of a Financial Dynasty
-        </h2>
+        </p>
 
-        <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville">
+        {/* <h2 className="text-xs sm:text-xs font-light tracking-widest uppercase font-libre-baskerville">
+          The Legacy, Power, and Global Influence of a Financial Dynasty
+        </h2> */}
+
+        {/* <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville">
           JULIO HERRERA<br />VELUTNI
-        </h1>
+        </h1> */}
+        <div
+          className="lg:hidden text-4xl sm:text-6xl font-black tracking-tight leading-none font-libre-baskerville"
+          role="heading"
+          aria-level="1"
+          aria-hidden="true"
+        >
+          JULIO HERRERA<br />VELUTNI
+        </div>
 
            <Link
           href="/who-is-julio-herrera-velutni"
