@@ -3,9 +3,133 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+/* ============================
+   SITE CONFIG
+============================ */
+const SITE_URL = "https://www.hvelutini.com";
+const PAGE_URL = `${SITE_URL}/global-banking-financial-influence`;
+
+/* ============================
+   METADATA (SEO / OG / TWITTER)
+============================ */
+export const metadata = {
+  title: "Global Banking & Financial Influence | Julio Herrera Velutni",
+  description:
+    "Explore the global banking and financial influence of Julio Herrera Velutni, highlighting his role in international private banking, wealth management, and cross-border finance.",
+
+  alternates: {
+    canonical: PAGE_URL,
+  },
+
+  openGraph: {
+    title: "Global Banking & Financial Influence",
+    description:
+      "An in-depth look at Julio Herrera Velutni’s global banking influence and contributions to international finance and wealth management.",
+    url: PAGE_URL,
+    siteName: "JMHV",
+    type: "article",
+    images: [
+      {
+        url: `${SITE_URL}/images/jmhv-image.webp`,
+        width: 1200,
+        height: 630,
+        alt: "Global Banking and Financial Influence of Julio Herrera Velutni",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Global Banking & Financial Influence",
+    description:
+      "How Julio Herrera Velutni shaped global banking, private finance, and wealth management across multiple regions.",
+    images: [`${SITE_URL}/images/jmhv-image.webp`],
+  },
+};
+
 export default function GlobalBanking() {
+
+   /* ============================
+     JSON-LD
+  ============================ */
+
+  const blogPostJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${PAGE_URL}#blogpost`,
+    headline: "Global Banking & Financial Influence",
+    description: metadata.description,
+    image: `${SITE_URL}/images/jmhv-image.webp`,
+    datePublished: "2025-01-01",
+    dateModified: "2025-01-01",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": PAGE_URL,
+    },
+    author: {
+      "@type": "Organization",
+      name: "JMHV",
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "JMHV",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/images/jmhv-logo-image.webp`,
+      },
+    },
+    about: {
+      "@type": "Person",
+      name: "Julio Herrera Velutni",
+      description:
+        "Julio Herrera Velutni is an international banking figure known for shaping private banking, wealth management, and cross-border financial structures.",
+      image: `${SITE_URL}/images/jmhv-image.webp`,
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Global Banking & Financial Influence",
+        item: PAGE_URL,
+      },
+    ],
+  };
+
   return (
-   <main className="min-h-screen w-full bg-black text-white overflow-hidden">
+    <>
+     {/* ============================
+          JSON-LD
+      ============================ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+     <main className="min-h-screen w-full bg-black text-white overflow-hidden">
+       {/* ===== Hidden SEO Copy ===== */}
+        <section className="sr-only">
+          <h2>Global Banking & Financial Influence</h2>
+          <p>
+            This article explores the global banking and financial influence of
+            Julio Herrera Velutni, focusing on his contributions to private
+            banking, wealth management, and international financial structures.
+          </p>
+        </section>
   {/* Header */}
  <header className="px-8 sm:px-12 lg:px-14 py-8">
   <div>
@@ -15,7 +139,7 @@ export default function GlobalBanking() {
       className="flex items-center gap-1"
     >
       <Image
-        src="/images/ChatGPT Image Jan 23, 2026, 03_32_34 PM.png"
+        src="/images/jmhv-logo-image.webp"
         alt="JMHV emblem"
         width={32}
         height={28}
@@ -47,7 +171,7 @@ export default function GlobalBanking() {
             </div>
 
         <Link
-          href="/business-leadership-&-institutions"
+          href="/business-leadership-institutions"
           className="mt-0 flex flex-col items-end gap-4 group"
           title='Business Leadership & Institutions page'
         >
@@ -79,7 +203,7 @@ export default function GlobalBanking() {
       <div className="lg:flex-1">
         <div className="w-full min-h-[240px] sm:h-[500px] lg:h-[630px] relative">
           <Image
-            src="/images/julio-image15 (1) (1).png"
+            src="/images/jmhv-image.webp"
             alt="Julio Herrera Velutni"
             fill
             priority
@@ -102,7 +226,7 @@ export default function GlobalBanking() {
             </div>
 
            <Link
-          href="/business-leadership-&-institutions"
+          href="/business-leadership-institutions"
           className="mt-0 flex flex-col items-end gap-2 group"
           title='Business Leadership & Institutions page'
         >
@@ -131,6 +255,7 @@ export default function GlobalBanking() {
     </div>
   </div>
 </main>
+    </>
 
   );
 }

@@ -41,6 +41,14 @@ const libreBaskerville = Libre_Baskerville({
   weight: ["400", "700"],
 });
 
+export const metadata = {
+  metadataBase: new URL("https://www.hvelutini.com"),
+
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
