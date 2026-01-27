@@ -15,8 +15,7 @@ const PAGE_URL = `${SITE_URL}/global-banking-financial-influence`;
 export const metadata = {
   title: "Global Banking & Financial Influence | Julio Herrera Velutni",
   description:
-    "Explore the global banking and financial influence of Julio Herrera Velutni, highlighting his role in international private banking, wealth management, and cross-border finance.",
-
+    "Discover how Julio Herrera Velutni shaped global banking through private finance, wealth management, and cross-border financial leadership.",
   alternates: {
     canonical: PAGE_URL,
   },
