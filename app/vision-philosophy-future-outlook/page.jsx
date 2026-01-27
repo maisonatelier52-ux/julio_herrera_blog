@@ -15,7 +15,7 @@ const PAGE_URL = `${SITE_URL}/vision-philosophy-future-outlook`;
 export const metadata = {
   title: "Vision, Philosophy & Future Outlook | Julio Herrera Velutni",
   description:
-    "Explore the vision, philosophy, and future outlook of Julio Herrera Velutni, focusing on ethical finance, long-term asset protection, innovation, and institutional resilience.",
+    "Discover Julio Herrera Velutni’s vision and financial philosophy focused on ethical finance, innovation, long-term asset protection, and institutional strength.",
 
   alternates: {
     canonical: PAGE_URL,
@@ -47,7 +47,7 @@ export const metadata = {
   },
 };
 
-export default function InternationalPresence() {
+export default function VisionPhilosophy() {
 
   /* ============================
      JSON-LD
@@ -124,10 +124,10 @@ export default function InternationalPresence() {
        {/* ===== Hidden SEO Copy ===== */}
         <section className="sr-only">
           <h2>Vision, Philosophy & Future Outlook</h2>
-          <p>
-            This article explores Julio Herrera Velutni’s financial philosophy,
-            long-term vision, and future outlook, emphasizing ethical finance,
-            innovation, asset protection, and institutional resilience.
+           <p>
+            Vision, philosophy, and future outlook define the financial approach of
+            Julio Herrera Velutni. This article explores Julio Herrera Velutni’s vision,
+            ethical finance philosophy, and long-term outlook for global finance.
           </p>
         </section>
           {/* Header */}
