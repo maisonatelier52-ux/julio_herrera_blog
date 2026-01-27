@@ -177,7 +177,7 @@ export const metadata = {
     siteName: "JMHV",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "Julio Herrera Velutni",
@@ -190,7 +190,7 @@ export const metadata = {
     title: "Who Is Julio Herrera Velutni?",
     description:
       "Biography and financial legacy of Julio Herrera Velutni.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 

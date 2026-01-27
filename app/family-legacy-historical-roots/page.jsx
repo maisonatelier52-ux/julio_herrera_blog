@@ -30,7 +30,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "Family Legacy and Historical Roots of Julio Herrera Velutni",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Family Legacy & Historical Roots",
     description:
       "Tracing the historical banking roots and family legacy of Julio Herrera Velutni.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 

@@ -30,7 +30,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "Business Leadership and Institutions of Julio Herrera Velutni",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Business Leadership & Institutions",
     description:
       "How Julio Herrera Velutni led and advised financial institutions across global markets.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 

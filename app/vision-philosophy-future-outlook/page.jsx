@@ -30,7 +30,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "Vision, Philosophy and Future Outlook of Julio Herrera Velutni",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Vision, Philosophy & Future Outlook",
     description:
       "Julio Herrera Velutni’s philosophy on ethical finance, innovation, and long-term institutional strength.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 

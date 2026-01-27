@@ -30,7 +30,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "Global Banking and Financial Influence of Julio Herrera Velutni",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Global Banking & Financial Influence",
     description:
       "How Julio Herrera Velutni shaped global banking, private finance, and wealth management across multiple regions.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 

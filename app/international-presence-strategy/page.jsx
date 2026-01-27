@@ -30,7 +30,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: `${SITE_URL}/images/jmhv-image.webp`,
+        url: `${SITE_URL}/images/jmhv-image-bg-black.webp`,
         width: 1200,
         height: 630,
         alt: "International Presence and Strategy of Julio Herrera Velutni",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "International Presence & Strategy",
     description:
       "How Julio Herrera Velutni navigates global finance through cross-border strategy and regulatory expertise.",
-    images: [`${SITE_URL}/images/jmhv-image.webp`],
+    images: [`${SITE_URL}/images/jmhv-image-bg-black.webp`],
   },
 };
 
