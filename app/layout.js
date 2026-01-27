@@ -48,18 +48,25 @@ const libreBaskerville = Libre_Baskerville({
 //     icon: "/favicon.ico",
 //   },
 // };
+
 export const metadata = {
   metadataBase: new URL("https://julio-herrera-blog.vercel.app"),
+
   icons: {
-    icon: [
-      { url: "/favicon.ico", type: "image/x-icon" },
-    ],
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body
         className={`
           ${geistSans.variable}
