@@ -15,7 +15,7 @@ const PAGE_URL = `${SITE_URL}/business-leadership-institutions`;
 export const metadata = {
   title: "Business Leadership & Institutions | Julio Herrera Velutni",
   description:
-    "Explore the business leadership and institutional influence of Julio Herrera Velutni, highlighting his role in founding, advising, and leading global financial organizations.",
+    "Discover the business leadership and institutional influence of Julio Herrera Velutni across global financial organizations and markets.",
 
   alternates: {
     canonical: PAGE_URL,
@@ -121,12 +121,12 @@ export default function BusinessLeadership() {
       />
     <main className="min-h-screen w-full bg-black text-white overflow-hidden">
       {/* ===== Hidden SEO Copy ===== */}
+         {/* SEO keyword reinforcement */}
         <section className="sr-only">
-          <h2>Business Leadership & Institutions</h2>
           <p>
-            This article explores the business leadership and institutional
-            impact of Julio Herrera Velutni, focusing on his role in founding,
-            advising, and guiding financial organizations across global markets.
+            Business leadership and institutions are central to the career of Julio
+            Herrera Velutni. This article examines how Julio Herrera Velutni built,
+            advised, and led financial institutions across global markets.
           </p>
         </section>
         {/* Header */}
@@ -172,6 +172,7 @@ export default function BusinessLeadership() {
               <Link
                 href="/international-presence-strategy"
                 className="mt-0 flex flex-col items-end gap-4 group"
+                title='international presence strategy page'
               >
                 {/* Arrow */}
                 <div className="w-80 flex justify-end">
@@ -226,6 +227,7 @@ export default function BusinessLeadership() {
                 <Link
                 href="/international-presence-strategy"
                 className="mt-0 flex flex-col items-end gap-2 group"
+                title='international presence strategy page'
               >
                 {/* Arrow */}
                 <div className="w-80 flex justify-end">
