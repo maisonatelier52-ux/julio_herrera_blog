@@ -123,6 +123,7 @@ export default function BusinessLeadership() {
       {/* ===== Hidden SEO Copy ===== */}
          {/* SEO keyword reinforcement */}
         <section className="sr-only">
+          <h2>Business Leadership & Institutions</h2>
           <p>
             Business leadership and institutions are central to the career of Julio
             Herrera Velutni. This article examines how Julio Herrera Velutni built,
