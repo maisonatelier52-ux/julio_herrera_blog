@@ -42,7 +42,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.hvelutini.com"),
+  metadataBase: new URL("https://julio-herrera-blog.vercel.app"),
 
   icons: {
     icon: "/favicon.ico",
