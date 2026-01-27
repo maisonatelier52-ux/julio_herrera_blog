@@ -15,7 +15,7 @@ const PAGE_URL = `${SITE_URL}/international-presence-strategy`;
 export const metadata = {
   title: "International Presence & Strategy | Julio Herrera Velutni",
   description:
-    "Explore the international presence and global strategy of Julio Herrera Velutni, focusing on cross-border investment, jurisdictional diversity, and global financial compliance.",
+    "Discover how Julio Herrera Velutni built international presence through cross-border strategy, global investment, and jurisdictional diversification.",
 
   alternates: {
     canonical: PAGE_URL,
@@ -173,6 +173,7 @@ export default function InternationalPresence() {
               <Link
                 href="/vision-philosophy-future-outlook"
                 className="mt-0 flex flex-col items-end gap-4 group"
+                title='vision philosophy future outlook page'
               >
                 {/* Arrow */}
                 <div className="w-80 flex justify-end">
@@ -227,6 +228,7 @@ export default function InternationalPresence() {
                 <Link
                 href="/vision-philosophy-future-outlook"
                 className="mt-0 flex flex-col items-end gap-2 group"
+                title='vision philosophy future outlook page'
               >
                 {/* Arrow */}
                 <div className="w-80 flex justify-end">
