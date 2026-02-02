@@ -1,4 +1,4 @@
-const SITE_URL = "https://julio-herrera-blog.vercel.app";
+const SITE_URL = "https://www.hvelutini.com";
 
 export default function sitemap() {
   const now = new Date();

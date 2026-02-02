@@ -6,7 +6,7 @@ import React from 'react';
 /* ============================
    SITE CONFIG
 ============================ */
-const SITE_URL = "https://julio-herrera-blog.vercel.app";
+const SITE_URL = "https://www.hvelutini.com";
 
 /* ============================
    METADATA (SEO / OG / TWITTER)

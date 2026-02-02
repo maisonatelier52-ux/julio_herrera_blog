@@ -6,7 +6,7 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://julio-herrera-blog.vercel.app/sitemap.xml",
-    host: "https://julio-herrera-blog.vercel.app",
+    sitemap: "https://www.hvelutini.com/sitemap.xml",
+    host: "https://www.hvelutini.com",
   };
 }
