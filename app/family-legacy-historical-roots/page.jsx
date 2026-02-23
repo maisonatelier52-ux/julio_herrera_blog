@@ -75,7 +75,7 @@ export default function HistoricalRoot() {
       name: "JMHV",
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/jmhv-logo-image.webp`,
+        url: `${SITE_URL}/images/jmhv-main-logo.webp`,
       },
     },
     about: {
@@ -135,7 +135,7 @@ export default function HistoricalRoot() {
             className="flex items-center gap-1"
           >
             <Image
-              src="/images/jmhv-logo-image.webp"
+              src="/images/jmhv-main-logo.webp"
               alt="JMHV emblem"
               width={32}
               height={28}
